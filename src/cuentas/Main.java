@@ -11,9 +11,9 @@ public class Main {
         public static void operativa_cuenta(CCuenta cuenta, float cantidad) {
         	try {
                 cuenta.retirar(cantidad);
-                System.out.println("Retirada de " + cantidad + " realizada.");
+                System.out.println("Retirada de " + cantidad + " realizada");
                 cuenta.ingresar(cantidad);
-                System.out.println("Ingreso de " + cantidad + " realizado.");
+                System.out.println("Ingreso de " + cantidad + " realizado");
             } catch (Exception e) {
                 System.out.println("Error al ingresar.");
             }
